@@ -8509,9 +8509,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="LOCK" package3d_urn="urn:adsk.eagle:package:38002/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="CR1225" library="DS1339 RTC Library" deviceset="BATTERY" device="-12MM_SMD"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="4.7k"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="4.7k"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="Y1" library="DS1339 RTC Library" deviceset="ECS-.327-6-17X-TR" device=""/>
@@ -8633,12 +8633,6 @@ chip@seeinsights.com</text>
 <pinref part="J1" gate="G$1" pin="6"/>
 <wire x1="109.22" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 <label x="114.3" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="109.22" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT" class="0">
