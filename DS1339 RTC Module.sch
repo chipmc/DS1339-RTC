@@ -8508,7 +8508,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="UFIDUCIAL" package3d_urn="urn:adsk.eagle:package:37111/1"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="LOCK" package3d_urn="urn:adsk.eagle:package:38002/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
-<part name="BT1" library="DS1339 RTC Library" deviceset="BATTERY" device="-12MM_SMD"/>
+<part name="CR1225" library="DS1339 RTC Library" deviceset="BATTERY" device="-12MM_SMD"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
@@ -8544,7 +8544,7 @@ chip@seeinsights.com</text>
 <attribute name="VALUE" x="142.24" y="56.134" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="142.24" y="66.548" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="BT1" gate="G$1" x="76.2" y="104.14" smashed="yes" rot="R270">
+<instance part="CR1225" gate="G$1" x="76.2" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.518" y="104.14" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="71.882" y="104.14" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
@@ -8608,7 +8608,7 @@ chip@seeinsights.com</text>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="152.4" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="101.6" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="BT1" gate="G$1" pin="-"/>
+<pinref part="CR1225" gate="G$1" pin="-"/>
 <wire x1="162.56" y1="91.44" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="99.06" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="91.44" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
@@ -8690,7 +8690,7 @@ chip@seeinsights.com</text>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VBACKUP"/>
-<pinref part="BT1" gate="G$1" pin="+"/>
+<pinref part="CR1225" gate="G$1" pin="+"/>
 <wire x1="116.84" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="114.3" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
 <label x="99.06" y="114.3" size="1.778" layer="95"/>

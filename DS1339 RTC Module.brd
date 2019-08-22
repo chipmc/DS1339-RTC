@@ -151,9 +151,9 @@
 <wire x1="24.11" y1="17.45" x2="0" y2="17.45" width="0" layer="20"/>
 <wire x1="0" y1="17.45" x2="0" y2="0" width="0" layer="20"/>
 <text x="5.08" y="0" size="0.8128" layer="21">GND SDA  SCL  INT  NC  VCC</text>
-<text x="1.27" y="1.27" size="0.8128" layer="21" rot="R90">GND VBATT</text>
-<text x="3.81" y="16.51" size="0.8128" layer="21">DS1339 Real Time Clock</text>
-<text x="20.32" y="16.51" size="0.8128" layer="22" rot="MR0">chip@mcclellands.org 8-21-19</text>
+<text x="1.016" y="1.016" size="0.8128" layer="21" rot="R90">GND VBAT</text>
+<text x="5.334" y="15.748" size="0.8128" layer="21">DS1339 Real Time Clock</text>
+<text x="23.876" y="17.272" size="0.8128" layer="22" rot="MR270">chip@mcclellands.org 8-21-19</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
@@ -862,8 +862,8 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BT1" library="DS1339 RTC Library" package="BATTCON_12MM" value="" x="11.43" y="11.43" smashed="yes" rot="MR0">
-<attribute name="NAME" x="11.43" y="4.953" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<element name="CR1225" library="DS1339 RTC Library" package="BATTCON_12MM" value="" x="11.43" y="11.43" smashed="yes" rot="MR0">
+<attribute name="NAME" x="11.43" y="4.953" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="PROD_ID" value="BATT-08044" x="-11.43" y="3.81" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SF_SKU" value="PRT-10592" x="-11.43" y="3.81" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="11.43" y="6.477" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
@@ -872,7 +872,6 @@ design rules under a new name.</description>
 <element name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-MICRO" package3d_urn="urn:adsk.eagle:package:37111/1" value="FIDUCIALUFIDUCIAL" x="1.524" y="16.002" smashed="yes"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="CREATIVE_COMMONS" package3d_urn="urn:adsk.eagle:package:37121/1" value="FRAME-LETTER" x="-7.62" y="-12.7" smashed="yes"/>
 <element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X06_LOCK" package3d_urn="urn:adsk.eagle:package:38002/1" value="" x="6.35" y="2.54" smashed="yes">
-<attribute name="NAME" x="5.08" y="3.937" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="5.08" y="0.254" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="2.54" y="2.54" smashed="yes" rot="R90">
@@ -899,7 +898,7 @@ design rules under a new name.</description>
 <attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/maxim-integrated/DS1339AU-/DS1339AU--ND/3440513?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="34.29" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Maxim Integrated" x="34.29" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="DS1339AU+" x="34.29" y="-15.24" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11" y="13.157" size="1.27" layer="25"/>
+<attribute name="NAME" x="11" y="13.157" size="0.8128" layer="25"/>
 <attribute name="PACKAGE" value="&amp;amp;MICRO;MAX-8 Maxim" x="34.29" y="-15.24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11" y="9.703" size="0.8128" layer="27" align="top-left"/>
 </element>
@@ -909,7 +908,7 @@ design rules under a new name.</description>
 <attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/ecs-inc/ECS-.327-6-17X-TR/XC1307CT-ND/827771?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="5.08" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="ECS Inc." x="5.08" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="ECS-.327-6-17X-TR" x="5.08" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="6.18103125" y="9.699390625" size="0.751659375" layer="25" rot="R180"/>
+<attribute name="NAME" x="6.18103125" y="9.699390625" size="0.8128" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="4-4 ECS International" x="5.08" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="OSHW-LOGO-MINI" package3d_urn="urn:adsk.eagle:package:37101/1" value="OSHW-LOGOMINI" x="21.59" y="15.24" smashed="yes"/>
@@ -938,7 +937,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="4"/>
-<contactref element="BT1" pad="GND"/>
+<contactref element="CR1225" pad="GND"/>
 <contactref element="J1" pad="1"/>
 <contactref element="J2" pad="1"/>
 <contactref element="Y1" pad="3"/>
@@ -1005,7 +1004,7 @@ design rules under a new name.</description>
 <signal name="VBACKUP">
 <contactref element="J2" pad="2"/>
 <contactref element="U1" pad="3"/>
-<contactref element="BT1" pad="PWR@2"/>
+<contactref element="CR1225" pad="PWR@2"/>
 <wire x1="5.78" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="1"/>
 <wire x1="11.805" y1="11.105" x2="11.6694" y2="10.9694" width="0.254" layer="1"/>
 <wire x1="11.6694" y1="10.9694" x2="11.01368125" y2="10.9694" width="0.254" layer="1"/>
